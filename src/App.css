@@ -9,3 +9,16 @@
 h4{
   margin: 0;
 }
+
+
+
+
+.containerBtn{
+  width: 100vw;
+  display: flex;
+  gap: .5rem;
+
+}
+.containerBtn button {
+padding: .5rem 2rem;
+}

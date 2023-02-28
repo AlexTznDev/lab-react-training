@@ -3,6 +3,9 @@ import Greetings from './component/Greetings';
 import IdCard from './component/IdCard';
 import LikeButton from './component/LikeButton';
 import Random from './component/Random';
+import Carousel from './component/Carousel';
+import ClickablePicture from './component/ClickablePicture';
+import Facebook from './component/Facebook';
 
 function App() {
   return (
@@ -40,6 +43,33 @@ function App() {
       <br />
 
       <LikeButton />
+
+      <br />
+      <br />
+
+      <Carousel
+        images={[
+          'https://randomuser.me/api/portraits/women/1.jpg',
+          'https://randomuser.me/api/portraits/men/1.jpg',
+          'https://randomuser.me/api/portraits/women/2.jpg',
+          'https://randomuser.me/api/portraits/men/2.jpg',
+        ]}
+      />
+
+      <br />
+      <br />
+
+      <ClickablePicture img="maxence.png" imgClicked="maxence-glasses.png" />
+
+
+      <br />
+      <br />
+
+
+
+      <Facebook />
+
+
 
     </div>
   );
